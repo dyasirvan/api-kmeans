@@ -126,7 +126,7 @@ def index():
 def penderita():
     tahun = request.args.get('tahun')
     # jenisPenyakit = request.args.get('jenis-penyakit')
-    db_connection_str = 'mysql+pymysql://root@localhost/db_penyakit'
+    db_connection_str = 'mysql+pymysql://bfc59d60bc4718:a58fcc55@us-cdbr-east-02.cleardb.com/heroku_f4425b09c2cb37b'
     db_connection = create_engine(db_connection_str)
     try:
 
